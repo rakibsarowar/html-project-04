@@ -26,8 +26,10 @@
 
 .partners-intro--logo img {
     display: block;
-    width: 112px;
-    height: 100px
+    width: 150px;
+    height: 150px;
+    transform: rotate(-340deg)
+    
 }
 .partners-intro--partners-item {
     position: absolute;
@@ -38,9 +40,6 @@
     margin: auto;
     width: 74px;
     height: 74px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0,0,0,.1);
-    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -50,24 +49,24 @@
     transform: translate(0,-217%);
 }
 
-.partners-intro--partners-item.-pos-3 {
+.partners-intro--partners-item.-pos-2 {
     transform: translate(220%,3%);
 }
 
-.partners-intro--partners-item.-pos-5 {
+.partners-intro--partners-item.-pos-3 {
     transform: translate(0,225%);
 }
 
-.partners-intro--partners-item.-pos-7 {
+.partners-intro--partners-item.-pos-4 {
     transform: translate(-209%,3%);
 }
 
 .partners-intro--partners {
-    animation: partnersRotating 30s linear infinite;
+    animation: partnersRotating 90s linear infinite;
 }
 .partners-intro--partners-item img {
     display: block;
-    animation: partnersIconsRotating 30s linear infinite;
+    animation: partnersIconsRotating 90s linear infinite;
     width: 100px;
 }
 
